@@ -3,7 +3,7 @@ This function takes an array of integers as an argument, and sorts them in ascen
 
 ## Stack structure
 
-`typedef struct s_stack
+typedef struct s_stack
 {
 	int				num;
 	int				order;
@@ -17,7 +17,7 @@ This function takes an array of integers as an argument, and sorts them in ascen
 	int				cost_total;
 	struct s_stack	*next;
 	struct s_stack	*prev;
-}			t_stack;`
+}			t_stack;
 
 ## Main Functions
 
