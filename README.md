@@ -1,24 +1,6 @@
 # JP_push_swap
 This function takes an array of integers as an argument, and sorts them in ascending order. Only a handful of predefined operations may be used.
 
-## Stack structure
-
-typedef struct s_stack
-{
-	int				num;
-	int				order;
-	int				final_order;
-	int				cost_ra;
-	int				cost_rra;
-	int				cost_rb;
-	int				cost_rrb;
-	int				cost_rr;
-	int				cost_rrr;
-	int				cost_total;
-	struct s_stack	*next;
-	struct s_stack	*prev;
-}			t_stack;
-
 ## Main Functions
 
 ### Operations
