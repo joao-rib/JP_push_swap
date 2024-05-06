@@ -44,7 +44,7 @@ Function | Format | Modified?
 --- | --- | ---
 ft_calloc | `void	*ft_calloc(size_t nmemb, size_t size)` | Same as libft
 ft_memset | `void	*ft_memset(void *s, int c, size_t n)` | Same as libft
-ft_strchr | `char	*ft_strchr(const char *str, int c)` | Improved error handling
+ft_strchr | `char	*ft_strchr(const char *str, int c)` | Improved efficiency
 ft_substr | `char	*ft_substr(const char *str, unsigned int start, size_t len)` | Same as libft
 ft_split | `char	**ft_split(const char *s, char c)` | Same as libft
 ft_isdigit | `bool	ft_isdigit(int c)` | Function now returns a boolean value
