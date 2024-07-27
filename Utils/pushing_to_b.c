@@ -31,9 +31,7 @@ static t_stack	*find_closest(t_stack *stack, int new_num)
 static void	alloc_b_operations(t_stack *node_a, t_stack *stack_b)
 {
 	t_stack	*closest;
-	int		i;
 
-	i = 0;
 	if (node_a->num < findmin_int(stack_b)->num
 		|| node_a->num > findmax_int(stack_b)->num)
 		closest = findmax_int(stack_b);
